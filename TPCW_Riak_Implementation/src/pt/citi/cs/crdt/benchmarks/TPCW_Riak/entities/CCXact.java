@@ -21,7 +21,7 @@ package pt.citi.cs.crdt.benchmarks.TPCW_Riak.entities;
 
 import org.uminho.gsd.benchmarks.interfaces.Entity;
 
-import pt.fct.di.benchmarks.TPCW_Riak.entities.CCXactItem;
+import pt.citi.cs.crdt.benchmarks.TPCW_Riak.entities.*;
 
 import java.sql.Date;
 import java.util.ArrayList;

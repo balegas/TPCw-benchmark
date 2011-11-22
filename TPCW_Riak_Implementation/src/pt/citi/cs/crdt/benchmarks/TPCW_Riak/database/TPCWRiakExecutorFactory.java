@@ -45,12 +45,10 @@ import org.uminho.gsd.benchmarks.helpers.ThinkTime;
 import org.uminho.gsd.benchmarks.interfaces.executor.AbstractDatabaseExecutorFactory;
 import org.uminho.gsd.benchmarks.interfaces.executor.DatabaseExecutorInterface;
 
-import pt.fct.di.benchmarks.TPCW_Riak.database.ConsistencyLevel;
-import pt.fct.di.benchmarks.TPCW_Riak.database.TPCW_Riak_Executor;
-
 import java.util.Map;
 import java.util.TreeMap;
 
+import pt.citi.cs.crdt.benchmarks.TPCW_Riak.database.ConsistencyLevel;;
 /**
  * TPC-W execution factory interface for Cassandra It loads the configuration
  * for Cassandra and returns execution clients.
