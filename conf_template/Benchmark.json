@@ -44,8 +44,8 @@
             },
 	"riak" :
             {
-               "DataEngineInterface" : "pt.fct.di.benchmarks.TPCW_Riak.database.TPCWRiakExecutorFactory",
-               "BenchmarkPopulator" : "pt.fct.di.benchmarks.TPCW_Riak.populator.RiakPopulator",
+               "DataEngineInterface" : " pt.citi.cs.crdt.benchmarks.TPCW_Riak.database.TPCWRiakExecutorFactory",
+               "BenchmarkPopulator" : " pt.citi.cs.crdt.benchmarks.TPCW_Riak.populator.RiakPopulator",
                "databaseExecutorConfiguration" : "RiakTPCW.json"
             }
       },
